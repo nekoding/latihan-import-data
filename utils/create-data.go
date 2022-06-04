@@ -10,7 +10,7 @@ import (
 func main() {
 	f := excelize.NewFile()
 
-	for i := 1; i <= 200; i++ {
+	for i := 1; i <= 1000; i++ {
 		f.SetCellValue("Sheet1", "A"+strconv.Itoa(i), i)
 		f.SetCellValue("Sheet1", "B"+strconv.Itoa(i), "samakata chloe")
 	}
